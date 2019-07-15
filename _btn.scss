@@ -1,0 +1,25 @@
+.btn {
+	color: $blanco;
+	padding: 10px 20px;
+	font-size: $fs-p;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+.btn--green {
+	background: $verde-oscuro;
+}
+.btn--lightblue {
+	background: $celeste;
+}
+.btn--blue {
+	background: $azul;
+}
+.btn--violet {
+	background: $violeta;
+}
+
+.btn--radius-left-0 {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}

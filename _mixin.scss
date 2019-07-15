@@ -1,0 +1,7 @@
+@mixin bg_sections($color, $imagen, $position) {
+	background-color: $color;
+	background-image: $imagen;
+	background-repeat: no-repeat;
+	background-position: $position;
+	background-size: 45% 100%;
+}

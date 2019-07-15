@@ -1,0 +1,25 @@
+/* NAV */
+
+nav {
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+
+	p,
+	span,
+	i {
+		text-transform: uppercase;
+		color: $blanco;
+		font-size: $fs-p;
+	} // Cierre del p, span y de la i
+} // Cierre del nav
+
+// @media screen and (max-width: 768px) {
+// 	nav {
+// 		background: pink;
+// 	}
+// }

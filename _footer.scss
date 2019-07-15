@@ -1,0 +1,36 @@
+footer {
+	background: $gris-claro;
+}
+
+.footer__datos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer__datos__item {
+	margin: 0 20px;
+}
+
+.footer__datos__item__icon {
+	background: $blanco;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.footer__datos__item__text {
+	color: $gris;
+	font-size: $fs-p;
+	margin-left: 10px;
+}
+
+.footer__copy {
+	text-align: center;
+	font-size: $fs-p;
+	color: $gris;
+	margin-top: 50px;
+}
